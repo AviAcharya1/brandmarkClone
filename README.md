@@ -146,7 +146,7 @@ Replace `your_openweather_api_key` with your actual API key from OpenWeatherMap.
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/aviacharya1/brandmark-clone.git
+    https://github.com/AviAcharya1/brandmarkClone.git
     cd brandmark-clone
     ```
 
