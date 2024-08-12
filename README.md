@@ -13,7 +13,6 @@ This project is a recreation of the front page of [Brandmark.io](https://brandma
 3. [Features](#features)
 4. [File Structure](#file-structure)
 5. [Components Overview](#components-overview)
-    - [Instantly Customize & Export](#instantly-customize-export)
     - [Latest Customer Creations](#latest-customer-creations)
     - [Weather Widget](#weather-widget)
     - [Calculator](#calculator)
