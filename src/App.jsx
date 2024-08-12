@@ -1,34 +1,31 @@
 import React from 'react';
+import './App.css'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
-import SideToolbar from './components/SideToolbar';
-import ToolsPage from './pages/ToolsPage';
 import Pricing from './pages/Pricing';
 import Support from './pages/Support';
 import Login from './pages/Login';
-import Hero from './components/Hero';
-import Features from './components/Features';
+import HomePage from './pages/HomePage';
 import Footer from './components/Footer';
-import Testimonial from './components/Testimonial';
-import Customization from './components/Customization';
+import Tools from './pages/Tools';
+import WeatherWidget from './components/WeatherWidget';
+import Calculator from './components/Calculator';
 
 function App() {
   return (
     <Router>
-      <div className="App bg-yellow-300">
-        <Header />
-        <SideToolbar />
-        <main className="mt-16">
+      <div>
+        <Header/>
+        <main>
           <Routes>
-            <Route path="/" element={<Hero />} />
-            <Route path="/tools" element={<ToolsPage />} />
+            <Route path="/" element={<HomePage />} />
+            <Route path="/tools" element={<Tools/>} />
             <Route path="/pricing" element={<Pricing />} />
             <Route path="/support" element={<Support />} />
             <Route path="/login" element={<Login />} />
+            <Route path="/weather" element={<WeatherWidget />} />
+            <Route path="/calculator" element={<Calculator/>} />
           </Routes>
-          <Testimonial />
-          <Features />
-          <Customization />
         </main>
         <Footer />
       </div>
@@ -37,4 +34,3 @@ function App() {
 }
 
 export default App;
-

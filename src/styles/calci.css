@@ -1,0 +1,24 @@
+.button, .button-clear, .button-equal {
+    @apply bg-blue-500 text-white rounded-lg p-4 transition-all duration-300 ease-in-out;
+  }
+  
+  .button:hover, .button-clear:hover, .button-equal:hover {
+    @apply bg-blue-700 scale-105;
+  }
+  
+  .button-clear {
+    @apply bg-red-500;
+  }
+  
+  .button-clear:hover {
+    @apply bg-red-700;
+  }
+  
+  .button-equal {
+    @apply bg-green-500;
+  }
+  
+  .button-equal:hover {
+    @apply bg-green-700;
+  }
+  

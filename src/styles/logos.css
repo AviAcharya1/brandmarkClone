@@ -1,0 +1,8 @@
+.logos__img {
+    filter: grayscale(100%);
+    transition: filter 0.3s ease-in-out;
+  }
+  
+  .logos__item:hover .logos__img {
+    filter: grayscale(0%);
+  }
