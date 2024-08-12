@@ -11,8 +11,8 @@ const WeatherWidget = () => {
   const [city, setCity] = useState('');
   const [searchedCity, setSearchedCity] = useState('Bangalore');
 
-  // const API_KEY = 'fdfa1680b7cde4bb781706dbec2c1884';
-  const API_KEY = process.env.REACT_APP_WEATHER_API_KEY;
+  
+  const API_KEY =import.meta.env.VITE_WEATHER_API_KEY;
 
   useEffect(() => {
     fetchWeather(searchedCity);
