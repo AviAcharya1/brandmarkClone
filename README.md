@@ -2,6 +2,10 @@
 
 This project is a recreation of the front page of [Brandmark.io](https://brandmark.io/), with additional features and customizations. The project is built using ReactJS, Vite, TailwindCSS, and various other modern technologies. 
 
+## Project is Live at:
+
+- https://brandmark-clone.vercel.app/
+
 ## Table of Contents
 
 1. [Project Overview](#project-overview)
