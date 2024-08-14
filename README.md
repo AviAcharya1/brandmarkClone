@@ -175,10 +175,10 @@ Once the installation is complete, you can run the project locally by executing 
 
 ## Future Improvements
 
-- Add more customization options in the Instantly Customize component.
-- Improve the design and functionality of the Latest Customer Creations section.
-- Implement user authentication and authorization.
-- Add more scientific features to the calculator.
+- To be added more customization options in the Instantly Customize component.
+-Must be improved the design and functionality of the Latest Customer Creations section.
+-Must be implemented with user authentication and authorization.
+-Must be added more scientific features to the calculator.
 
 ## License
 
